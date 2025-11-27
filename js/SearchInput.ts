@@ -286,12 +286,12 @@ export default class SearchInput {
 			this.clear();
 		};
 
-		dom.input.addEventListener('input', inputInput);
+		dom.input.addEventListener('change', inputInput);
 		dom.select.addEventListener('input', selectInput);
 		dom.clear.addEventListener('click', clearClick);
 
 		dt.on('destroy', () => {
-			dom.input.removeEventListener('input', inputInput);
+			dom.input.removeEventListener('change', inputInput);
 			dom.select.removeEventListener('input', selectInput);
 			dom.clear.removeEventListener('click', clearClick);
 		});
