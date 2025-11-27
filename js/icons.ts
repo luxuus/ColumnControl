@@ -25,6 +25,9 @@ const icons = {
 
 	ends: wrap('<path d="M21 3h-4v18h4z"/><path d="M13 8H3v9h10"/>'),
 
+	// Custom 
+	notEnds: wrap('<path d="M23 8 16 17"></path><path d="M16 8 23 17"></path><path d="M13 8H3v9h10"></path>'),
+
 	// Customised
 	equal: wrap('<line x1="5" x2="19" y1="9" y2="9"/><line x1="5" x2="19" y1="15" y2="15"/>'),
 
@@ -115,6 +118,9 @@ const icons = {
 
 	// Custom
 	starts: wrap('<path d="M3 3h4v18H3z"/><path d="M11 8h10v9H11"/>'),
+
+	// Custom
+	notStarts: wrap('<path d="M1 8 8 17"></path><path d="M8 8 1 17"></path><path d="M11 8h10v9H11"></path>'),
 
 	// tick
 	tick: wrap('<path d="M20 6 9 17l-5-5"/>'),
